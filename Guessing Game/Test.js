@@ -2,7 +2,7 @@ function guess () {
     let chifre = document.getElementById("chiffre").value;
     console.log("Your number was " + chifre);
 
-    let playerGuess = document.getElementById("chiffre").value;
+    let playerGuess = chifre
 
     const numberToGuess = Math.ceil(Math.random () * 5);
     console.log("The right answer was " + numberToGuess);
