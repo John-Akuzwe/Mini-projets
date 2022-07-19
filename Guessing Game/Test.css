@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "font1";
+    src:url(./Assets/Montserrat-Italic.ttf)
+}
+
+@font-face {
+    font-family : "font2";
+    src: url(./Assets/Montserrat-Medium.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 3rem;
+    color: rgb(53, 52, 52);
+    text-shadow: -3px -4px 3px rgba(255, 228, 179, 0.548);
+    text-align: center;
+    font-weight: bold;
+    font-family: "font1";
+    margin-top: 20px;
+}
+
+.img {
+    text-align: center;
+}
+
+body {
+    font-family: "font2";
+    background: url(./Assets/backround.jpg) no-repeat fixed center/cover;
+    height: 100px; 
+}
+
+main {
+    background-color: rgb(255, 246, 235);
+    width: 90%;
+    min-height: 500px;
+    margin: 40px auto;
+    padding: 15px 10px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 3px rgb(160, 160, 160);
+}
+
+
+.programme,
+.title {
+border: 2px solid rgb(255, 235, 215);
+padding: 10px;
+margin : 10px;
+border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(44, 43, 42);
+    font-family: "font1";
+
+}
+
+#text {
+    position: absolute;
+    top: 30%;
+}
+
+form {
+    text-align: center;
+}
+
+#doIt {
+    position: absolute;
+    top: 30%;
+    right: 7%;
+    font-size: 2rem;
+
+}

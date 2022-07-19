@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guessing Game</title>
+    <link rel="shortcut icon" href="detective.png.png" />
+    <link rel="stylesheet" href="Test.css" />
+    <script src="Test.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Will you beat me ?</h1>
+    </header>
+
+    <main>
+      <div class="title">
+        <h2>HEY YOU !</h2>
+        <div class="main">
+          <div class="img">
+            <img src="./Assets/hey you.jpg" height="400px" alt="Robot" />
+          </div>
+          <h4 id="text">
+            So you really think you can beat me at guessing
+            <br />
+            right number ?
+            <br />
+            I like challenges ! If you guess correctly, I'll give you 5 bucks.
+            <br />
+            Deal ?
+            <br />
+            But if I win...
+          </h4>
+          <h4 id="doIt">
+            Guess a number beetwen 1 included <br />
+            5 included.
+          </h4>
+        </div>
+      </div>
+      <div class="game">
+        <h2>Give a try</h2>
+      </div>
+
+      <div class="programme">
+        <form>
+          <input type="integer" id="chiffre" placeholder="Testez ta chance ?" />
+          <input type="button" id="button" onclick="guess()" value="Valider" />
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
